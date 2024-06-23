@@ -1,0 +1,71 @@
+.conteneur{
+    display: grid;
+    grid-template-rows: 4rem 100fr 3rem;
+    grid-template-columns: 10rem 20rem 12rem;
+    border: 1px solid black;
+}
+.nav{
+    background-color: rgb(77, 255, 0);
+    padding-top: 1rem;
+    grid-column: 1 /4;
+    padding-left: 9rem;
+    padding-bottom: 1rem;
+}
+.lien{
+    padding-left: 1rem;
+    grid-column: 1;
+    grid-row: 2;
+}
+.grille{
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 3rem;
+}
+.regles{
+    grid-column: 3;
+    grid-row: 2;
+}
+.format{
+    grid-column: 1/4;
+    grid-row: 3;
+    padding-left: 17rem;
+    padding-top: 1rem;
+    background-color: rgb(64, 255, 0);
+}
+td, tr, img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+td{
+    width: 20px;
+    height: 20px;
+}
+table{
+    background-color: lightgray;
+    height: 15rem;
+    width: 15rem;
+}
+.btn{
+    background: url(./new.png);
+    background-image: url(./new.png);
+    padding-top: auto;
+}
+.champs{
+    height: 25px;
+    padding-bottom: px;
+}
+.image{
+    height: 20px;
+    width: 20px;
+}
+
+.regles h1 {
+    font-size: 0.5em;
+    margin-bottom: 10px;
+}
+
+.regles p {
+    font-size: 10px;
+    line-height: 1.5;
+}
